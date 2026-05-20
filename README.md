@@ -10,15 +10,29 @@ Stack: [Nuxt 3](https://nuxt.com), [Vue 3](https://vuejs.org), [Vercel AI SDK](h
 
 You'll need Node 18+ and an Anthropic API key.
 
+### 1. Install dependencies
+
 ```bash
-# 1. Install dependencies
 npm install
+```
 
-# 2. Copy the example env file and add your API key
+### 2. Copy the example env file
+
+```bash
 cp .env.example .env
-# then edit .env and set ANTHROPIC_API_KEY=sk-ant-...
+```
 
-# 3. Start the dev server
+### 3. Add your API key
+
+Open `.env` and set:
+
+```
+ANTHROPIC_API_KEY=sk-ant-...
+```
+
+### 4. Start the dev server
+
+```bash
 npm run dev
 ```
 
